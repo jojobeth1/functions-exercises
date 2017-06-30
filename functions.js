@@ -1,10 +1,12 @@
 // TODO: add your solutions here!
 
+//These are examples
 var absoluteVale = Math.abs(-4);
 
 var fourSquared = Math.pow(4,2);
 
 var roundedToNearestInterger = Math.round(1.22343);
+
 
 
 //make a function to combine two words. Words in () are two variables word1, word2)
@@ -66,17 +68,18 @@ function pyTheo(sideA, sideB) {
 
 // is true X % Y = 0
 
+function xDivYEven (x, y){
 
+		var answer;
+		if ( x % y === 0 ){
+	    answer = true;
+  }else {answer = false;}
+  return answer;
+}
+var result= xDivYEven(9,3);
 
-/*function xDivYEven (x, y){
-    let haveRemainders
-    if( X % Y = 0){
+console.log(result);
 
-    }else(X % Y > 0 ){
-
-    };
-};
-*/
 
 /*if (answer === true) {
         console.log("Can I haz ur Cheezburger?");
